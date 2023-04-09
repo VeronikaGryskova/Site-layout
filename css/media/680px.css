@@ -1,0 +1,75 @@
+@media screen and (max-width: 680px) {
+  .content {
+    margin: 0 auto;
+  }
+  aside {
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+    gap: 34px;
+    width: auto;
+    margin-top: 32px;
+    margin-bottom: 32px;
+  }
+  .main {
+    margin-top: 10px;
+  }
+  .baner {
+    background-image: url(../../img/680px/baner680px.svg);
+    width: 480px;
+    height: 373px;
+  }
+  .banerHeader {
+    top: 286px;
+    width: 470px;
+  }
+  .banerDescription {
+    top: 335px;
+    width: 470px;
+  }
+  .subscribeBox {
+    margin-top: 30px;
+    width: 479px;
+    height: 128px;
+  }
+  .newsletterDescription {
+    width: 366px;
+    height: 48px;
+  }
+  .subscribeBox input {
+    width: 312px;
+  }
+  .cards {
+    row-gap: 30px;
+  }
+  .card {
+    width: 375px;
+    height: 380px;
+  }
+  .card img {
+    width: 345px;
+    height: 225px;
+  }
+  .cardFrame {
+    width: 345px;
+    height: 225px;
+  }
+  .cardHeader {
+    font-size: 22px;
+    margin-top: 13px;
+  }
+  .cardBody {
+    font-size: 18px;
+    margin-top: 13px;
+    height: auto;
+    margin-bottom: 13px;
+  }
+  span {
+    margin-top: 13px;
+    font-size: 16px;
+  }
+
+  footer {
+    width: 90vw;
+  }
+}

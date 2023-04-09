@@ -1,0 +1,88 @@
+@media screen and (max-width: 768px) {
+  .asideAndMain {
+    gap: 20px;
+  }
+  aside {
+    gap: 5%;
+  }
+  .menuInfo img {
+    display: none;
+  }
+  .menuItem {
+    height: 20px;
+  }
+  .main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .baner {
+    background-image: url(../../img/680-768px/baner\(680-768px\).svg);
+    background-size: cover;
+    width: 545px;
+    height: 353px;
+  }
+  .banerHeader {
+    justify-content: start;
+    padding-left: 10px;
+    top: 262px;
+    width: 535px;
+    height: 49px;
+    background: #ffffff;
+    opacity: 0.6;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+  .banerDescription {
+    justify-content: start;
+    padding-left: 10px;
+    top: 311px;
+    width: 535px;
+    height: 42px;
+  }
+  .tabs {
+    display: none;
+  }
+  .subscribeBox {
+    margin-top: 40px;
+    width: 545px;
+    height: 96px;
+    flex-flow: row wrap;
+  }
+  .newsletterDescription {
+    width: 474px;
+    height: 32px;
+  }
+  .subscribeBox input {
+    width: 394px;
+    height: 22px;
+  }
+  .subscribeBox button {
+    width: 80px;
+    height: 23px;
+  }
+  .cards {
+    margin-top: 25px;
+    column-gap: 30px;
+    row-gap: 15px;
+    justify-content: center;
+  }
+  .card {
+    width: 238px;
+    height: 337px;
+  }
+  .card img {
+    width: 238px;
+    height: 150px;
+  }
+  .cardFrame {
+    width: 238px;
+    height: 150px;
+  }
+  .cardBody {
+    height: 135px;
+  }
+  footer {
+    width: 560px;
+    height: 78px;
+  }
+}

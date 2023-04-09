@@ -1,0 +1,362 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.content {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+body {
+  font-family: Arial;
+}
+.asideAndMain {
+  display: flex;
+  justify-content: space-between;
+  gap: 45px;
+}
+aside {
+  width: 140px;
+}
+.menu {
+  margin-top: 9px;
+}
+
+.menuItem {
+  width: 140px;
+  height: 66px;
+  font-style: italic;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 14px;
+  color: #34aca7;
+  display: flex;
+
+  margin-left: 3px;
+  margin-top: 5px;
+}
+.menuInfo {
+  width: 134px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+}
+.menuIcon {
+  width: 30px;
+  height: 30px;
+}
+
+.menuHeading {
+  margin-left: 12px;
+}
+.asideTweet {
+  margin-top: 9px;
+}
+
+.asideHeader {
+  font-family: "Verdana";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 12px;
+  text-transform: uppercase;
+  width: 140px;
+  height: 22px;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+}
+.border {
+  border-bottom: 1px dashed #e5e5e5;
+  margin-top: 5px;
+}
+
+.btnTweet {
+  width: 140px;
+  height: 30px;
+  font-family: "Arial";
+  font-style: italic;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 12px;
+  color: #34aca7;
+  display: flex;
+  align-items: center;
+  border: 1px solid #e5e5e5;
+  border-radius: 5px;
+  margin-top: 9px;
+}
+.btnTweetInfo {
+  width: 120px;
+  height: 16px;
+  margin-left: 7px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.asideFriends {
+  margin-top: 9px;
+}
+
+.asideFriends .description {
+  font-family: "Arial";
+  font-style: italic;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 19px;
+  width: 140px;
+  height: 56px;
+  margin-top: 10px;
+}
+
+.asideFriends .btnTweet {
+  margin-top: 15px;
+}
+
+.baner {
+  background-image: url(../img/mainImg.svg);
+  height: 445px;
+  position: relative;
+}
+
+.banerHeader {
+  position: absolute;
+  top: 285px;
+  width: 272px;
+  height: 49px;
+  background: #ffffff;
+  font-family: "Arial";
+  font-style: italic;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 22px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  letter-spacing: 0.01em;
+  color: #000000;
+}
+
+.banerDescription {
+  position: absolute;
+  top: 334px;
+  width: 487px;
+  height: 42px;
+  background: #000000;
+  font-family: "Arial";
+  font-style: italic;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 14px;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tabs {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.tabItem {
+  width: 222px;
+  height: 85px;
+  background: #eff8f7;
+
+  border-left: 1px solid #f9fbfb;
+  border-right: 1px solid #d6e6e6;
+}
+.tabItem:hover {
+  background: #d9efec;
+}
+
+.tabInfo {
+  margin-top: 26px;
+  height: 37px;
+  margin-left: 20px;
+}
+.titleTab {
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 18px;
+  color: #34aca7;
+}
+
+.descriptionTab {
+  font-family: "Arial";
+  font-style: italic;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 19px;
+  color: #34aca7;
+}
+
+.subscribeBox {
+  margin-top: 30px;
+  width: 896px;
+  height: 51px;
+  border-top: 1px dashed #e5e5e5;
+  border-bottom: 1px dashed #e5e5e5;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.newsletterDescription {
+  width: 530px;
+  height: 32px;
+  font-family: "Arial";
+  font-style: italic;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.subscribeBox img {
+  width: 32px;
+  height: 26px;
+}
+
+.subscribeBox input {
+  width: 152px;
+  padding-left: 6px;
+  height: 22px;
+  background: #ffffff;
+  border: 1px solid #e5e5e5;
+}
+
+.subscribeBox button {
+  width: 80px;
+  height: 23px;
+  background: linear-gradient(180deg, #f4f3f3 0%, #bbb9b9 100%);
+
+  border: 1px solid #e5e5e5;
+  border-radius: 2px;
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 10px;
+  text-align: center;
+}
+
+input::placeholder {
+  color: #e5e5e5;
+
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 10px;
+}
+
+.cards {
+  margin-top: 30px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  row-gap: 25px;
+}
+
+.card {
+  width: 207px;
+  height: 336px;
+}
+
+.card img {
+  width: 207px;
+  height: 143px;
+  outline: 11px solid #ffffff;
+  outline-offset: -11px;
+}
+
+.cardFrame {
+  width: 207px;
+  height: 143px;
+  border: 1px solid #e5e5e5;
+  filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.25));
+}
+
+.cardHeader {
+  margin-top: 11px;
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  letter-spacing: -0.02em;
+  color: #34aca7;
+}
+.cardBody {
+  margin-top: 9px;
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: -0.02em;
+  color: #000000;
+}
+
+.card .data {
+  margin-top: 11px;
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: -0.02em;
+  color: #e5e5e5;
+}
+
+.card .read {
+  margin-top: 11px;
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: -0.02em;
+  color: #34aca7;
+}
+
+footer {
+  border-top: 2px solid #e5e5e5;
+  width: 1088px;
+  height: 92px;
+  background: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* position: fixed;
+  bottom: 0; */
+}
+
+.infoFoodSense {
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 12px;
+  letter-spacing: -0.02em;
+  color: #34aca7;
+}
+
+.rights {
+  margin-top: 5px;
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 12px;
+  letter-spacing: -0.02em;
+  color: #e5e5e5;
+}
